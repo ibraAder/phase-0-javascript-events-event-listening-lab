@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-26T21:34:04.575Z",
+    "end": "2023-03-26T21:34:05.309Z",
+    "duration": 734
+  },
+  "tests": [
+    {
+      "title": "binds an event listener in addingEventListener()",
+      "fullTitle": "index.js binds an event listener in addingEventListener()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addingEventListener is not defined\n    at Context.<anonymous> (test\\indexTest.js:12:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "addingEventListener is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "binds an event listener in addingEventListener()",
+      "fullTitle": "index.js binds an event listener in addingEventListener()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: addingEventListener is not defined\n    at Context.<anonymous> (test\\indexTest.js:12:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "addingEventListener is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
